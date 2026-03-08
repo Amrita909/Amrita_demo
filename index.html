@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Services</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(to right, #b27257, #ba754d);
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        /* Services Grid */
+        .services {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            padding: 40px;
+        }
+
+        /* Service Card */
+        .service-card {
+            background-color: white;
+            padding: 30px 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+        }
+
+        /* Icon */
+        .icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        /* Typography */
+        .service-card h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .service-card p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            display: flex;
+            justify-content: center;
+            background-color: #222;
+            color: white;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Our Services</h1>
+        <p>Quality Services for Your Business</p>
+    </header>
+
+    <main class="services">
+        <div class="service-card">
+            <div class="icon">💻</div>
+            <h2>Web Design</h2>
+            <p>Modern and responsive website designs.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="icon">⚙️</div>
+            <h2>Web Development</h2>
+            <p>Fast and secure web applications.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="icon">📈</div>
+            <h2>SEO Services</h2>
+            <p>Improve your website ranking.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="icon">🎨</div>
+            <h2>Graphic Design</h2>
+            <p>Creative logos and designs.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="icon">📢</div>
+            <h2>Marketing</h2>
+            <p>Grow your business online.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="icon">📞</div>
+            <h2>Support</h2>
+            <p>24/7 customer support.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Service Website</p>
+    </footer>
+
+</body>
+</html>
